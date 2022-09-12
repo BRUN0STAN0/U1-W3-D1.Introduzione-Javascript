@@ -1,0 +1,23 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+    background-color: slategray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button {
+    height: 20px;
+    width: 20px;
+    padding: 0px;
+    margin: 0px;
+    font-weight: 900;
+}
+
+h2 {
+    color: crimson;
+    text-shadow: 2px 1px black;
+}
