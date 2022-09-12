@@ -1,5 +1,6 @@
 body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
     letter-spacing: 1px;
     background-color: slategray;
     display: flex;
@@ -10,11 +11,16 @@ body {
 }
 
 button {
-    height: 20px;
-    width: 20px;
+    height: 40px;
+    width: 40px;
     padding: 0px;
     margin: 0px;
     font-weight: 900;
+}
+
+button:active {
+    padding: 0;
+    margin: 0;
 }
 
 h2 {
